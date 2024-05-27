@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "3",
+      "title": "hii",
+      "image": "https://i.ibb.co/RH7ZkP6/Screenshot-2021-12-02-at-9-40-48-AM.png"
+    },
+    {
+      "id": "7",
+      "title": "namasre",
+      "image": "https://i.ibb.co/5B8c06d/Screenshot-2021-05-29-at-9-15-35-AM.png"
+    },
+    {
+      "id": "3",
+      "title": "rrr",
+      "image": "https://i.ibb.co/gT6mZLf/9b5379dd-f849-4a3d-a3f6-882fd75eec07.png"
+    },
+    {
+      "id": "66",
+      "title": "shadow",
+      "image": "https://i.ibb.co/8YRf38t/Default.jpg"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="/"><button>Home</button></a>
+    </div>
+    <div>
+      <h3>Add Post</h3>
+
+      <input type="text" id="id" placeholder="id" />
+      <input type="text" id="title" placeholder="Title" />
+      <input type="file" id="image" accept="image/*" onchange="handleImage(event)" />
+
+      <button id="submit_btn" onclick="addPost()">Submit</button>
+    </div>
+
+    <div>
+      <h3>Delete POST</h3>
+
+      <input type="text" id="delete_id" placeholder="Enter id to delete" />
+
+      <button onclick="deletePost()">Delete</button>
+    </div>
+
+    <div>
+      <h3>Update Post</h3>
+      <input type="text" id="update_id" placeholder="Enter id to update" />
+      <input type="text" id="update_title" placeholder="Enter new title" />
+
+      <button onclick="updatePost()">update Title</button>
+    </div>
+
+    <div>
+      <h3>Replace Post</h3>
+      <input type="text" id="replace_id" placeholder="Enter id to replace" />
+      <input type="text" id="replace_title" placeholder="Enter new title" />
+
+      <button onclick="replacePost()">replace Title</button>
+    </div>
+  </body>
+</html>
+
+<script src="create.js"></script>
